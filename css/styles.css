@@ -1,9 +1,13 @@
+body {
+	background-color: aliceblue;
+}
+
 li {
 	display: inline-block;
-	color: #000;
+	color: black;
 	font-size: 150%;
 	font-weight: bold;
-	padding: 0 5px;
+	padding: 5px;
 }
 
 .nav {
@@ -18,4 +22,39 @@ li {
 .home {
 	float: left;
 	padding-right: 60%;
+	padding-left: 5%;
+}
+
+.portfolio {
+	text-align: center;
+}
+
+div.gallery {
+	border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.responsive {
+	padding: 0 10px;
+	padding-bottom: 20px;
+	float: left;
+	width: 25%;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
